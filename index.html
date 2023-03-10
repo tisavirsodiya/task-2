@@ -14,21 +14,33 @@
     </legend>
     <form id="form">
         <div class="row">
-        <label for="name">Name:</label><input type="text" id="name" name="name"placeholder="name"><br><br>
+        <label for="name">Name:</label><input type="text" id="Name" name="name"placeholder="name"><br><br>
         <label for="Email">Email:</label><input type="Email" id="Email" name="Email"placeholder="Email"><br><br>
         <label for="phonenumber">phonenumber:</label><input type="number" id="phonenumber" name="phonenumber"placeholder="phonenumber"><br><br>
         <label for="birthdaydate">birthdaydate:</label><input type="date" id="birthdaydate" name="birthdaydate"placeholder="birthdaydate"><br><br>
         <label for="appointmenttime">appointmenttime:</label><input type="time" id="appointmenttime" name="appointmenttime"placeholder="appointment"><br><br>
         <label for="favoritecolor">favoritecolor:</label><input type="dropdown" id="favoritecolor" name="favoritecolor"placeholder="favoritecolor"><br><br>
-        <label for="paymentmethod">paymentmethod:</label><input type="radio button" id="paymentmethod" name="paymentmethod"placeholder="paymentmethod"><br><br>
+        <label for="paymentmethod">paymentmethod:</label>
+        <input type="radio" id="payment" name="paymentmethod"placeholder="cash">
+        <label for ="cash">cash</label>
+        <input type="radio" id="payment" name="paymentmethod"placeholder="Gpay">
+        <label for ="Gpay">Gpay</label>
+        <input type="radio" id="payment" name="paymentmethod"placeholder="Debit card">
+        <label for ="Debit card">Debit card</label>
+        <br><br>
         <label for="age">age:</label><input type="range" id="age" name="age"placeholder="age"><br><br>
-        <label for="checkboxoption">checkboxoption:</label><input type="checkbox" id="checkboxoption" name="checkboxoption"placeholder="checkboxoption"><br><br>
+        <label for="checkboxoption">checkboxoption:</label>
+        <input type="radio" id="payment" name="paymentmethod"placeholder="offline">
+        <label for ="offline">offline</label>
+        <input type="radio" id="payment" name="paymentmethod"placeholder="online">
+        <label for ="online">online</label>
+        <input type="checkbox" id="checkboxoption" name="checkboxoption"placeholder="checkboxoption"><br><br>
         <label for="uploadphoto">uploadphoto:</label><input type="file" id="uploadphoto" name="uploadphoto"placeholder="uploadphoto"><br><br>
-        <input type="submit"vaule="submit" id="button" onclick="submit()">
-        <input type="reset"vaule="reset" id="button">
+        
+        <input type="reset"vaule="reset" id="button"><br><br>
         </div>
-
-    </form>    
+ </form>
+    <input type="submit"vaule="submit" id="button" onclick="submitform()">    
 </fieldset><br><br><br>
 <div id="msg"></div>
 <fieldset>
