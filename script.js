@@ -57,4 +57,39 @@ function readingDataFromLocalStorage(dataEntered)
 function insert(readData)
 {
     var row= table.insertRow();
+    var cell1= row.insertcell(0);
+    var cell2= row.insertcell(1);
+    var cell3= row.insertcell(2);
+    var cell4= row.insertcell(3);
+    var cell5= row.insertcell(4);
+    var cell6= row.insertcell(5);
+    var cell7= row.insertcell(6);
+    var cell8= row.insertcell(7); 
+    var cell9= row.insertcell(8);
+    var cell10= row.insertcell(9);
+
+ cell1.innerHTML=readData[0];
+ cell2.innerHTML=readData[1];
+ cell3.innerHTML=readData[2];
+ cell4.innerHTML=readData[3];
+ cell5.innerHTML=readData[4];
+ cell6.innerHTML=readData[5];
+ cell7.innerHTML=readData[6];
+ cell8.innerHTML=readData[7];
+ cell9.innerHTML=readData[8];
+ cell10.innerHTML=readData[9];
+
+ row.insertcell(0).innerHTML=readData[0];
+
+
 }
+
+
+
+
+
+
+
+
+
+
